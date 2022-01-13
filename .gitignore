@@ -267,3 +267,6 @@ lint/tmp/
 # *.exe - Nim provides
 *.out
 *.app
+
+.idea/
+.idea

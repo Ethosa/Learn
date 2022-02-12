@@ -7,7 +7,7 @@ function main() {
 function legendre(p, n) {
     var sum = Math.floor(n/p)
         pow = p*p
-    while (n > pow){
+    while (n >= pow){
         sum += Math.floor(n/pow)
         pow *= p
     }
